@@ -1,5 +1,24 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+import { Jumbotron, Container } from "react-bootstrap"
+
+import Layout from "../components/Layout"
+
+const Index = () => {
+  return (
+    <div>
+      <Layout>
+      <Jumbotron fluid>
+        <Container>
+          <h1>Angel's Tech Blog</h1>
+          <p>
+            A beginner navigating her way in tech
+          </p>
+        </Container>
+      </Jumbotron>
+      </Layout>
+      </div>  
+  )
 }
+
+export default Index

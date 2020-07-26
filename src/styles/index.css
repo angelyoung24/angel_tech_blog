@@ -1,0 +1,14 @@
+.jumbotron {
+  background-image: url("../img/close-up-photo-of-keyboard-220357.jpg");
+  background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}

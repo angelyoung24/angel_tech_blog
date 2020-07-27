@@ -1,14 +1,33 @@
+body {
+  background-color: #fec7d7;
+}
+
+a {
+  text-shadow: 2px 1px 1px #f9f8fc;
+}
+
 .jumbotron {
   background-image: url("../img/close-up-photo-of-keyboard-220357.jpg");
   background-size: cover;
 }
 
 h1 {
-    color: #fff;
+    color: #fffffe;
     text-align: center;
+    text-shadow: -1px -1px 0 #a786df,
+		1px -1px 0 #a786df,
+		-1px 1px 0 #a786df,
+		1px 1px 0 #a786df;
 }
 
 p {
     color: #fff;
     text-align: center;
+    text-shadow: 2px 1px 1px #a786df;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
 }

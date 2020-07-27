@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from 'gatsby'
 
 import { Navbar, Dropdown } from "react-bootstrap"
-import headerStyles from './Header.module.css'
 
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
     <header>
       <Navbar>
         <Navbar.Brand><Link to="/" style={{ textDecoration: 'none' }, { color: '#000' }}>Angel's Tech Blog</Link></Navbar.Brand>
-        <Dropdown variant="secondary">
+        <Dropdown style={{backgroundColor: '#fff'}}>
           <Dropdown.Toggle id="dropdown-basic">
             Menu
           </Dropdown.Toggle>

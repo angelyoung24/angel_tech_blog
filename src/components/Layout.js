@@ -9,7 +9,9 @@ const Layout = (props) => {
     <div>
         <Header />
         <Hero />
+        <section style={{ minHeight: `100vh` }}
         {props.children}
+        </section>
         <Footer />
     </div>
     )

@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Header from './Header'
-import Footer from './Footer'
 import Hero from './Hero'
+import Footer from './Footer'
 
 const Layout = (props) => {
     return (    

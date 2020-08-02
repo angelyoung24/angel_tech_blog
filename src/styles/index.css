@@ -1,5 +1,6 @@
 body {
   background-color: #fec7d7;
+  height: 100vh;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 }
 
 h1 {
-    color: #fffffe;
+    color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0 #a786df,
 		1px -1px 0 #a786df,
@@ -21,7 +22,7 @@ h1 {
 }
 
 p {
-    color: #fff;
+    color: #594a4e;
     text-align: center;
     text-shadow: 2px 1px 1px #a786df;
 }
